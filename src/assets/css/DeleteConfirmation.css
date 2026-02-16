@@ -1,0 +1,76 @@
+.delete-confirmation {
+  padding: 2rem;
+  text-align: center;
+}
+
+.delete-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  animation: shake 0.5s ease;
+}
+
+@keyframes shake {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-10deg); }
+  75% { transform: rotate(10deg); }
+}
+
+.delete-confirmation h2 {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.delete-message {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.delete-message strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.delete-warning {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+.delete-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.delete-actions .btn {
+  min-width: 140px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .delete-confirmation {
+    padding: 1.5rem;
+  }
+
+  .delete-icon {
+    font-size: 3rem;
+  }
+
+  .delete-confirmation h2 {
+    font-size: 1.25rem;
+  }
+
+  .delete-actions {
+    flex-direction: column-reverse;
+  }
+
+  .delete-actions .btn {
+    width: 100%;
+  }
+}

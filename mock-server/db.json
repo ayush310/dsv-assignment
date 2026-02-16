@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Anil",
+      "lastName": "Ambani",
+      "phoneNumber": "+919988998898",
+      "email": "anil.ambani@example.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Mukesh",
+      "lastName": "Ambani",
+      "phoneNumber": "+919988998897",
+      "email": "mukesh.ambani@example.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Neeta",
+      "lastName": "Ambani",
+      "phoneNumber": "+919988998896",
+      "email": "neeta.ambani@example.com"
+    },
+    {
+      "id": "0668",
+      "firstName": "Ayush",
+      "lastName": "Singh",
+      "phoneNumber": "+918604630050",
+      "email": "ayushkumarsingh525@gmail.com"
+    }
+  ]
+}
